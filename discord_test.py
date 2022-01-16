@@ -56,31 +56,10 @@ async def on_message(message):
                     await message.channel.send(send_message)
 
     else:
-        print("not hit")
+        print("not hitt")
         pass
 
 
-@bot.event
-async def on_massage(massage):
 
-  if massage.content.startswith("!work"): #こんにちはから始まるメッセージ
-      
-    #指定したチャンネルとメッセージを送ったチャンネルが同じIDなら実行
-    if int(massage.channel.id) == int(work_channel_id):
-        while True:
-            ran = random.randint(60,300)
-            wait_time = ran + 300
-            print("waiting...work" + str(wait_time))
-            print(datetime.datetime.now())
-            await asyncio.sleep(1)
-            time.sleep(wait_time)
-            send_massage = f'!work'
-            await massage.channel.send(send_massage)
-
-
-    else:
-        print("not hit")
-        pass
-
-bot.run("ODc0MTU2NTM1NDk5MDgzODQ3.YeOe1Q.vgXH_jEOt-Y077SnfJ9UnmzkC7I", bot=False)
+bot.run("ODc0MTU2NTM1NDk5MDgzODQ3.YeOmEw.nL5YBBHchMqMhGXAOPbLJJp6vac", bot=False)
 
