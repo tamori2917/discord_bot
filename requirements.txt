@@ -1,0 +1,11 @@
+requests
+pandas
+numpy
+discord
+discord.ext.commands
+discord.ext
+os
+time
+random
+datetime
+asyncio
