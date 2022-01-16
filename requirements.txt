@@ -2,8 +2,4 @@ requests
 pandas
 numpy
 discord
-os
-time
-random
-datetime
 asyncio
