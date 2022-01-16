@@ -82,5 +82,5 @@ async def on_massage(massage):
         print("not hit")
         pass
 
-bot.run("ODc0MTU2NTM1NDk5MDgzODQ3.YeKPAg.omzjGfw_9y6ELk8Y48kuGJuDgEg", bot=False)
+bot.run("ODc0MTU2NTM1NDk5MDgzODQ3.YeOe1Q.vgXH_jEOt-Y077SnfJ9UnmzkC7I", bot=False)
 
