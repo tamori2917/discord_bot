@@ -3,7 +3,6 @@ import discord
 from discord.ext.commands import Bot
 from discord.ext import commands
 import os
-from keepalive import keepalive
 from time import sleep
 import time
 import random
@@ -83,6 +82,5 @@ async def on_massage(massage):
         print("not hit")
         pass
 
-#keep_alive()
 bot.run("ODc0MTU2NTM1NDk5MDgzODQ3.YeKPAg.omzjGfw_9y6ELk8Y48kuGJuDgEg", bot=False)
 
